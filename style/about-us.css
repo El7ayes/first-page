@@ -1,0 +1,100 @@
+.aboutus-header .hero-banner-content h2 {
+    font-size: 2.9375em;
+    font-weight: 700;
+    color: var(--primary-color);
+
+}
+.aboutus-header .hero-banner-content h2 span {
+    font-weight: 700;
+    color: var(--orange-color);
+}
+
+.aboutus-header .aboutus-header-image {
+    width: 30em;
+    height: 20.1875em;
+}
+
+.aboutus-header .aboutus-header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aboutus-header .hero-banner-content p {
+    width: 75%;
+}
+
+.card-image i {
+    font-size: 40px;
+}
+
+.one {
+    border: none;
+    border-radius: 0.8em;
+    display: flex;
+    position: relative;
+    left: -12em;
+    width: 70%;
+}
+
+.tw {
+    border: none;
+    border-radius: 0.8em;
+    display: flex;
+    position: relative;
+    left: 2em;
+    width: 70%;
+}
+
+.aboutus-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.aboutus-body-video {
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.aboutus-body-video img:nth-of-type(1) {
+    width: 66.5em;
+    height: 100%;
+    position: relative;
+    right: 1em;
+    margin: auto;
+}
+
+.aboutus-body-video img:nth-of-type(2) {
+    position: absolute;
+    right: 30em;
+    bottom: 15em;
+
+}
+
+.aboutus-body-content {
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15em;
+    /* margin-top: 3em; */
+}
+
+.aboutus-body-content h2 {
+    display: flex;
+    font-size: 4.0625em;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.aboutus-body-content h2 span {
+    font-weight: 700;
+}
+
+.aboutus-body-content p {
+    width: 70%;
+    color: #909090;
+}

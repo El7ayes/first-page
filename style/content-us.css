@@ -1,0 +1,164 @@
+.contentus-header h2 {
+    font-size: 4em;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.contentus-header h2 span {
+    font-weight: 700;
+    color: var(--orange-color);
+}
+
+.form-control {
+    width: 100%;
+    height: 3em;
+    margin-bottom: 2.5em;
+    border-radius: .8em;
+    border: 1px solid #8A8A8A;
+}
+
+.form-control2 {
+    margin-top: -1em;
+    height: 15em !important;
+
+}
+
+.form-control2::placeholder {
+    padding-block: 1em;
+}
+
+.form-control::placeholder {
+    font-size: 1.25em;
+    padding-inline-start: 1em;
+    font-weight: 700;
+    color: #BFBFBF;
+}
+
+.form-control::placeholder {
+    margin-right: -4em;
+}
+
+.contentus-name .row {
+    display: flex;
+    gap: 2.9em;
+    margin-bottom: -2em;
+}
+
+.contentus-name .row .form-control3 {
+    width: 33.3em;
+}
+.contentus-name .row .form-control4 {
+    width: 25.2em;
+}
+
+.contentus-btn {
+    margin-top: -2em;
+}
+
+.contentus-btn button {
+    width: 100%;
+    height: 4em;
+    border-radius: .8em;
+    border: none;
+    background: var(--orange-color);
+    color: var(--white-color);
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+
+.contentus-btn button span {
+    font-size: 1.8em;
+    font-weight: 800;
+    margin: auto;
+}
+
+.contentus-body {
+    display: flex;
+}
+
+.contentus-body .columns2 .footer-contact p {
+    color: #818181;
+}
+
+.contentus-body .columns2 h2 {
+    font-weight: 700;
+    color: #818181;
+    font-size: 2.5em;
+}
+
+.contentus-body-lside {
+    position: relative;
+    left: 16em;
+    top: -1em;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 18em;
+    background: #EAEAEA;
+    margin-top: 1em;
+    position: relative;
+    left: 4.8em;
+    border-radius: .7em;
+}
+
+.map p {
+    color: #000000;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    transform: translateY(7em);
+}
+
+.topbar {
+    width: 108%;
+}
+
+@media (max-width: 1251px) {
+    .contentus-body-lside {
+        left: 0;
+    }
+
+    .map {
+        left: 0;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .map {
+        width: 80%;
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .contentus-body {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        position: relative;
+        right: 3em;
+    }
+
+    .contentus-name .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contentus-name .row .form-control3 {
+        width: 99%;
+    }
+    .contentus-name .row .form-control4 {
+        width: 99%;
+    }
+
+    .contentus-header {
+        margin-right: 12em;
+    }
+    .contentus-body {
+        margin-right: 9em;
+    }
+}

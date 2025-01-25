@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Arabic-ui";
+    src: url(../assets/fonts/arabic-ui.otf);
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-family: "Arabic-ui";
+    font-size: .9em;
+}
+p{
+    line-height: 1.75;
+}
+
+img {
+    object-fit: contain;
+}
+.yellow-color {
+    color: var(--yellow-color);
+}
+.blue-color {
+    color: var(--blue-color);
+}
+.primary-color {
+    color: var(--primary-color);
+}
+.orange-color {
+    color: var(--orange-color) !important;
+}
+
+.p-color {
+    color: #686868;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.lighttextt{
+    font-weight: 400;
+}
+
+.fs-18-sm {
+    font-size: 1.125em;
+}
+
+.fs-26-sm {
+    font-size: 1.625em;
+}
+
+.fs-47-sm {
+    font-size: 2.9375em;
+}
+
+.pink-color {
+    background: #F04B2540;
+}
+
+.semi-yellow-color {
+    background-color: #F4A90540;
+    border-radius: 0.8em 0.8em 0 0;
+}
+
+
+
+.no-background {
+    background: none;
+}
