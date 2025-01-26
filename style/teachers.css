@@ -2,7 +2,11 @@
     overflow-x:visible ;
 } */
 
-.navbar {
+.teachers-topbar .topbar {
+  width: 105%;
+}
+
+.teachers-navbar .navbar {
   width: 100%;
 }
 
@@ -257,10 +261,10 @@ order: -2;
     /* width: 34.859375em; */
     /* height: 25.518125em; */
     width: 100vh;
-    height: 58.3vh;
+    height: 52.3vh;
     object-fit: contain;
     position: relative;
-    left: 12em;
+    left: 14.5em;
     top: -.1em;
     background: transparent;
 }
@@ -299,11 +303,11 @@ order: -2;
 
 @media (max-width: 1281px) {
 
-  .topbar {
+  .teachers-topbar .topbar {
     width: 150%;
   }
 
-  .navbar {
+  .teachers-navbar .navbar {
     width: 150%;
   }
 
@@ -346,26 +350,25 @@ order: -2;
     gap: 2em;
   }
 
-  .blue-ads {
+  .teachers-blue-ads {
     width: 120%;
     margin-right: 15em;
   }
   
-  .footer {
+  .teachers-footer {
     width: 110%;
-    
-    margin-right: 7em;
+    margin-right: 18em;
   }
 }
 
 
 @media (max-width: 1251px) {
 
-  .topbar {
+  .teachers-topbar .topbar {
     width: 100%;
   }
 
-  .navbar {
+  .teachers-navbar .navbar {
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -417,12 +420,12 @@ order: -2;
   
   }
 
-  .blue-ads {
+  .teachers-blue-ads {
     width: 100%;
     margin: auto;
   }
 
-  .footer {
+  .teachers-footer {
     width: 90%;
     margin: auto;
   }
@@ -434,7 +437,7 @@ order: -2;
     width: 80%;
   } */
 
-  .navbar {
+  .teachers-navbar .navbar {
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -492,12 +495,12 @@ order: -2;
   }
 
 
-  .blue-ads {
+  .teachers-blue-ads {
     width: 95%;
     margin: auto;
   }
 
-  .footer {
+  .teachers-footer {
     width: 90%;
     margin: auto;
   }
@@ -505,8 +508,8 @@ order: -2;
 
 @media (max-width: 768px) {
 
-  .navbar {
-    width: 110%;
+  .teachers-navbar .navbar {
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding-inline-end: 5em;
@@ -541,14 +544,16 @@ order: -2;
     width: 100%;
   }
 
-  .blue-ads {
-    width: 100%;
+  .teachers-blue-ads {
+    width: 90%;
     display: flex;
-    margin: auto;
+    /* margin: auto; */
+    margin-left: 20em;
   }
 
-  .footer {
-    width: 100%;
-    margin: auto;
+  .teachers-footer {
+    width: 80%;
+    /* margin: auto; */
+    margin-left: 20em;
   }
 }

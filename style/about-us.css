@@ -98,3 +98,218 @@
     width: 70%;
     color: #909090;
 }
+
+/* .about-us-footer {
+    width: 100em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.about-us-footer .footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 5em;
+    gap: 10em;
+}
+
+.about-us-footer .footer .footer-container {
+    width: 120%;
+}
+
+/* responsive */
+
+@media (max-width: 1281px) {
+
+    .about-us-topbar .topbar {
+        width: 150%;
+    }
+
+    .about-us-navbar .navbar {
+        width: 150%;
+    }
+
+    .about-us-navbar .navbar-menu {
+        gap: 2.5em;
+    }
+    
+    .about-us-navbar .navbar-btns {
+        gap: 1.7em;
+    }
+
+    .aboutus-header .hero-banner {
+        width: 150%;
+    }
+
+    .aboutus-cards-container {
+        width: 150% !important;
+    }
+
+    .y-card-h5 {
+        width: 65% ;
+    }
+
+    .y-card-p {
+        width: 60%;
+    }
+
+    .b-card-p {
+        width: 63%;
+    }
+
+    .aboutus-body {
+        width: 150%;
+    }
+
+    .aboutus-body-content {
+        width: 54% !important;
+    }
+
+    .about-us-footer .footer {
+        width: 100%;
+        margin-right: 20em;
+    }
+
+}
+
+@media (max-width: 1251px) {
+
+    .about-us-topbar .topbar {
+        width: 125%;
+    }
+
+    .about-us-navbar .navbar {
+        width: 120%;
+    }
+
+    .aboutus-header .hero-banner {
+        width: 120%;
+    }
+
+    
+    .aboutus-body {
+        width: 120%;
+    }
+
+    .aboutus-body-content {
+        width: 60.4% !important;
+    }
+    
+    .about-us-footer .footer {
+        width: 74%;
+        /* right: 4em; */
+    }
+
+    .aboutus-cards-container {
+        width: 110% !important;
+        position: relative;
+        right: 4em;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .about-us-navbar .navbar {
+        width: 100%;
+    }
+
+    .aboutus-header .hero-banner {
+        width: 100%;
+    }
+
+    
+    .aboutus-body {
+        width: 90%;
+    }
+
+    .aboutus-body-content {
+        width: 85.4% !important;
+    }
+    
+    .about-us-footer .footer {
+        width: 80%;
+        flex-wrap: wrap;
+        right: -20em;
+    }
+
+    .aboutus-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column !important; */
+        width: 110% !important;
+        position: relative;
+        right: -10em;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-navbar .navbar {
+        width: 105%;
+    }
+
+    .aboutus-header .hero-banner {
+        width: 115%;
+    }
+
+    
+    .aboutus-body {
+        width: 100%;
+        height: 100%;
+        margin-right: 20em;
+    }
+
+    .aboutus-body-video img:nth-of-type(1) {
+        width: 70%;
+        right: -9em;
+    
+    }
+
+    .aboutus-body-video img:nth-of-type(2) {
+        width: 30%;
+        height: 30%;
+        position: absolute;
+        right: 2em;
+        bottom: 6.5em;
+    }
+    .aboutus-body-content {
+        width: 61.9% !important;
+        margin-left: 32em;
+        gap: 7em;
+    }
+
+    .aboutus-body-content h2 {
+        font-size: 2.5em;
+    }
+
+    .aboutus-body-content p {
+        font-size: .7em;
+        /* width: 150%; */
+    }
+    
+    .about-us-footer .footer {
+        width: 50%;
+        flex-wrap: wrap;
+        right: -16em;
+    }
+
+    .aboutus-cards-container {
+        display: flex;
+        /* flex-wrap: nowrap; */
+        flex-direction: column !important;
+        width: 120% !important;
+        /* height: 10em; */
+        position: relative;
+        right: 0em;
+    }
+
+    .aboutus-cards-container .row {
+        gap: 2em;
+        position: relative;
+        right: 1em;
+    }
+
+    .tw {
+        right: 12em;
+    }
+}
